@@ -84,7 +84,13 @@ public class PandaSprintMod {
   @SubscribeEvent
   public void onClientTick(TickEvent.ClientTickEvent event) {
     if (mc.thePlayer != null && mc.theWorld != null && toggled) {
-      mc.thePlayer.setSprinting(true);
+      // Vérifier si le joueur se déplace horizontalement
+      boolean isMoving = mc.thePlayer.moveForward > 0;
+
+      // N'activer le sprint que si le joueur se déplace
+      if (isMoving) {
+        mc.thePlayer.setSprinting(true);
+      }
     }
   }
 
