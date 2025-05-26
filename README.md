@@ -77,7 +77,3 @@ cd PandaSprint
 ```
 
 Le fichier JAR sera généré dans le dossier `build/libs/`.
-
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
