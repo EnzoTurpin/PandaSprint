@@ -1,0 +1,48 @@
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# Minecraft Forge
+eclipse/
+run/
+logs/
+hs_err_*.log
+crash-reports/
+.minecraft/
+
+# Java
+*.class
+*.log
+
+# Package Files
+*.war
+*.ear
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~

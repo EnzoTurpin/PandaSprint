@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "pandasprint",
+    "name": "PandaSprint",
+    "description": "Ajoute le sprint toggle + un HUD personnalisable. Inspiré des mods ToggleSprint classiques, avec options graphiques et support 1.8.9.",
+    "version": "1.0",
+    "mcversion": "1.8.9",
+    "url": "",
+    "authorList": ["Panda_Sauvage"],
+    "credits": "Mod inspiré par le ToggleSprint de OrangeMarshall",
+    "logoFile": "",
+    "screenshots": [],
+    "updateUrl": "",
+    "dependencies": []
+  }
+]
